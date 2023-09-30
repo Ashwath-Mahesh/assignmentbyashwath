@@ -109,7 +109,7 @@ const App = () => {
 
       {/* Display all posts */}
       <div>
-        {posts.map(post => (
+        {posts.map((post)=> (
           <div key={post._id} className="post">
             <img
               src={post.image}
